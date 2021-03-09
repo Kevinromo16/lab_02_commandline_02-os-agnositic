@@ -132,7 +132,7 @@ Write the command that you used to change to your home directory.  If you were a
 ==========
 13. So... the lab materials are located at this url:
 
-https://filebin.net/retypweqyn7h8vrg/mtec1003-lab-02.zip?t=a0ulqlss
+https://entertainmenttechnology.github.io/Viera-MTEC1003-fall-2018/mtec1003-lab-02.zip
 
 Download the file using curl... to a file called mtec1003-lab-02.zip using the commandline.  
 
@@ -142,7 +142,7 @@ Use ls to verify that it downloaded.
 
 Write down the command that you used to download the file below.  Additionally, write the output of the command below.
 ----------
-curl -o filename.txt https://filebin.net/retypweqyn7h8vrg/mtec1003-lab-02.zip?t=a0ulqlss
+https://entertainmenttechnology.github.io/Viera-MTEC1003-fall-2018/mtec1003-lab-02.zip
 
 
 ==========
@@ -150,7 +150,7 @@ curl -o filename.txt https://filebin.net/retypweqyn7h8vrg/mtec1003-lab-02.zip?t=
 
 Write down the command that you used to uncompress the file.
 ----------
-unzip filename1.zip
+unzip
 
 
 ==========
@@ -158,7 +158,7 @@ unzip filename1.zip
 
 Copy and paste the output below.
 ----------
-
+cd mtec1003-lab-02.zip
 
 
 ==========
