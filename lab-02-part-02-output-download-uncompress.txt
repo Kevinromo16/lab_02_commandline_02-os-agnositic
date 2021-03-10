@@ -158,7 +158,20 @@ unzip
 
 Copy and paste the output below.
 ----------
-
+Archive:  mtec1003-lab-02.zip
+  inflating: mtec1003-lab-02/books/other/pg1232.txt  
+  inflating: mtec1003-lab-02/books/science-fiction/pg84.txt  
+  inflating: mtec1003-lab-02/books/science-fiction/pg86.txt  
+  inflating: mtec1003-lab-02/logs/.DS_Store  
+ extracting: mtec1003-lab-02/logs/access-0.log  
+ extracting: mtec1003-lab-02/logs/access-1.log  
+ extracting: mtec1003-lab-02/logs/access-10.log  
+ extracting: mtec1003-lab-02/logs/access-11.log  
+ extracting: mtec1003-lab-02/logs/access-111.log  
+ extracting: mtec1003-lab-02/logs/access-112.log  
+ extracting: mtec1003-lab-02/logs/access-113.log  
+ extracting: mtec1003-lab-02/logs/access-114.log  
+ extracting: mtec1003-lab-02/logs/access-115.log  
 
 ==========
 We're going to mess around with archiving and compressing files.  We'll make a directory with a file in it... archive and compress it.... and uncompress it elsewhere.
@@ -228,7 +241,7 @@ stuff.tar.gz
 ==========
 22. Move stuff.tar.gz into the lab directory that we downloaded.  We didn't learn this command yet, so just type in exactly as is:
 
-$ mv stuff.tar.gz mtec1002-lab-02 
+$ mv stuff.tar.gz mtec1003-lab-02 
 
 MAKE SURE YOU MOVE THE FILE THAT ENDS IN .gz!
 
@@ -236,7 +249,7 @@ Change your directory to mtec1002-lab-02.
 
 List the files.  Copy and paste the output below (stuff.tar.gz should be there).
 ----------
-
+books  logs  stuff.tar.gz  web
 
 ==========
 23. You should be in the lab directory.  Let's uncompress the file.
@@ -245,8 +258,8 @@ $ tar -xvf stuff.tar.gz
 
 List the files.  Copy and paste the output below (the folder, stuff, should be there).
 ----------
-
-
+1003     Documents  MTEC1003  Pictures  bar           foo        house      media-computation  mtec1003-lab-02.zip
+Desktop  MTEC       Music     Videos    filename.txt  hello.txt  kevinromo  mtec1003-lab-02    stuff
 
 ==========
 24. Go back to your home directory
