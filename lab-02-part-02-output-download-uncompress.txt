@@ -142,7 +142,7 @@ Use ls to verify that it downloaded.
 
 Write down the command that you used to download the file below.  Additionally, write the output of the command below.
 ----------
-https://entertainmenttechnology.github.io/Viera-MTEC1003-fall-2018/mtec1003-lab-02.zip
+curl -o mtec1003-lab-02.zip https://entertainmenttechnology.github.io/Viera-MTEC1003-fall-2018/mtec1003-lab-02.zip
 
 
 ==========
@@ -158,7 +158,6 @@ unzip
 
 Copy and paste the output below.
 ----------
-cd mtec1003-lab-02.zip
 
 
 ==========
@@ -169,7 +168,7 @@ We're going to mess around with archiving and compressing files.  We'll make a d
 
 Copy and paste the output below.
 ----------
-
+1003  Desktop  Documents  MTEC  MTEC1003  Music  Pictures  Videos  bar  filename.txt  foo  house  kevinromo  media-computation  mtec1003-lab-02.zip  stuff
 
 
 ==========
@@ -181,7 +180,8 @@ List the files in the directory you're currently in (which should be stuff).
 
 Copy and paste the output below.
 ----------
-
+1003     Documents  MTEC1003  Pictures  bar           foo        house      media-computation    stuff
+Desktop  MTEC       Music     Videos    filename.txt  hello.txt  kevinromo  mtec1003-lab-02.zip
 
 
 ==========
@@ -193,7 +193,7 @@ List the files in the directory you're currently in (which should be home).
 
 Copy and paste the output below.
 ----------
-
+stuff/
 
 
 ==========
@@ -203,7 +203,7 @@ $ tar -cvf stuff.tar stuff
 
 Copy and paste the output below.
 ----------
-
+stuff/
 
 
 ==========
@@ -211,7 +211,8 @@ Copy and paste the output below.
 
 Copy and paste the output below. (It should contain stuff.tar)
 ----------
-
+1003     Documents  MTEC1003  Pictures  bar           foo        house      media-computation    stuff
+Desktop  MTEC       Music     Videos    filename.txt  hello.txt  kevinromo  mtec1003-lab-02.zip  stuff.tar
 
 
 ==========
@@ -221,7 +222,7 @@ gzip stuff.tar
 
 List your files again.... you should have a new file with a .gz extension.  Copy and paste the output of your this below.
 ----------
-
+stuff.tar.gz
 
 
 ==========
